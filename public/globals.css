@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "nb-mono";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "nb-mono";
+  src: url('/fonts/NBMono.otf');
+}
+
+@font-face {
+  font-family: "nb-bold";
+  src: url('/fonts/NBBold.otf');
+}
+
+@font-face {
+  font-family: "nb-regular";
+  src: url('/fonts/NBRegular.otf')
+}
